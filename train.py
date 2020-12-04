@@ -1,9 +1,5 @@
 import torch
-import torch.optim as optim
-import numpy as np
-from tqdm import tqdm
-from dataset.dataset import MaskDataset
-from model.resnet import res18
+
 
 def train():
     optimizer = torch.optim.SGD(
